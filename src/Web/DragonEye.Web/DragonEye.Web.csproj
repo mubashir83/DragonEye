@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\DragonEye.BuildingBlocks.Application\DragonEye.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\..\BuildingBlocks\DragonEye.BuildingBlocks.Infrastructure\DragonEye.BuildingBlocks.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Iam\DragonEye.Modules.Iam.Infrastructure\DragonEye.Modules.Iam.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Assets\DragonEye.Modules.Assets.Infrastructure\DragonEye.Modules.Assets.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Iam\DragonEye.Modules.Iam.Contracts\DragonEye.Modules.Iam.Contracts.csproj" />
+    <ProjectReference Include="..\..\Modules\Assets\DragonEye.Modules.Assets.Contracts\DragonEye.Modules.Assets.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

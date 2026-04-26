@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/DragonEye.BuildingBlocks.Application/DragonEye.BuildingBlocks.Application.csproj" />
+    <Project Path="src/BuildingBlocks/DragonEye.BuildingBlocks.Domain/DragonEye.BuildingBlocks.Domain.csproj" />
+    <Project Path="src/BuildingBlocks/DragonEye.BuildingBlocks.Infrastructure/DragonEye.BuildingBlocks.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Assets/">
+    <Project Path="src/Modules/Assets/DragonEye.Modules.Assets.Application/DragonEye.Modules.Assets.Application.csproj" />
+    <Project Path="src/Modules/Assets/DragonEye.Modules.Assets.Contracts/DragonEye.Modules.Assets.Contracts.csproj" />
+    <Project Path="src/Modules/Assets/DragonEye.Modules.Assets.Domain/DragonEye.Modules.Assets.Domain.csproj" />
+    <Project Path="src/Modules/Assets/DragonEye.Modules.Assets.Infrastructure/DragonEye.Modules.Assets.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Iam/">
+    <Project Path="src/Modules/Iam/DragonEye.Modules.Iam.Application/DragonEye.Modules.Iam.Application.csproj" />
+    <Project Path="src/Modules/Iam/DragonEye.Modules.Iam.Contracts/DragonEye.Modules.Iam.Contracts.csproj" />
+    <Project Path="src/Modules/Iam/DragonEye.Modules.Iam.Domain/DragonEye.Modules.Iam.Domain.csproj" />
+    <Project Path="src/Modules/Iam/DragonEye.Modules.Iam.Infrastructure/DragonEye.Modules.Iam.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Web/">
+    <Project Path="src/Web/DragonEye.Web/DragonEye.Web.csproj" />
+  </Folder>
+</Solution>

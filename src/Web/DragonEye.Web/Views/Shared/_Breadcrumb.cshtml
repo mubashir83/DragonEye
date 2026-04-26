@@ -1,0 +1,9 @@
+@{
+    var breadcrumb = ViewData["Breadcrumb"]?.ToString() ?? "Home";
+}
+<nav aria-label="breadcrumb" class="mb-2">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@breadcrumb</li>
+    </ol>
+</nav>

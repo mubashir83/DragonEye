@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\DragonEye.BuildingBlocks.Infrastructure\DragonEye.BuildingBlocks.Infrastructure.csproj" />
+    <ProjectReference Include="..\DragonEye.Modules.Assets.Application\DragonEye.Modules.Assets.Application.csproj" />
+    <ProjectReference Include="..\DragonEye.Modules.Assets.Domain\DragonEye.Modules.Assets.Domain.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\DragonEye.BuildingBlocks.Application\DragonEye.BuildingBlocks.Application.csproj" />
+  </ItemGroup>
+
+</Project>

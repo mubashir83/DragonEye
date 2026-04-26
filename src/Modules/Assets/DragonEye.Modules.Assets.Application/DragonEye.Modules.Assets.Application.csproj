@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\DragonEye.BuildingBlocks.Application\DragonEye.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\DragonEye.Modules.Assets.Domain\DragonEye.Modules.Assets.Domain.csproj" />
+    <ProjectReference Include="..\DragonEye.Modules.Assets.Contracts\DragonEye.Modules.Assets.Contracts.csproj" />
+    <ProjectReference Include="..\..\Iam\DragonEye.Modules.Iam.Contracts\DragonEye.Modules.Iam.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
